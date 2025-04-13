@@ -11,7 +11,7 @@
 #include "../header_file/world.hpp"
 
 Hearts::Hearts() {
-    // heart_texture.loadFromFile("resources/hearts.png");
+    
     Hearts_Main.load("resources/hearts.png", 32, 32);
     heart_sprite.setTextureRect(sf::IntRect(0, 0, 32, 32));  //  32x32 heart sprite
 }
